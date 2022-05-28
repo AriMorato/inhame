@@ -5,38 +5,45 @@
 
 body{
     background-color: #7d1e04;
-    min-width: 1100px;
 }
 
 main{
-    width: 90%;
-    margin:auto;
+     margin:auto;
+}
+
+.container{
+    max-width:1100px;
+    min-width: 300px;
 }
 
 #principal{
     background-color: #E5890A;
     overflow: hidden;
-    display: flex;
-    width: 100%;
+    position: relative;
 }
 
-#principal :nth-child(1){
+#selecionado{
     float: left;
-    width:auto;
+}
+
+#selecionado img{
+    width: 30%;
+}
+
+#selecionado figcaption p{
+    text-align: center;
+}
+
+
+
+#topFive{
 
 }
 
-#principal :nth-child(1) figure{
-    width: 40%;
+#topFive img{
+    width: 30%;
 }
 
-#principal :nth-child(1) figure figcaption{
-   text-align: center;
-}
-
-#principal :nth-child(1) img{
-    width: 100%;
-}
 
 
 #sobremesa{
