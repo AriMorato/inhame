@@ -7,19 +7,16 @@ body{
     background-color: #7d1e04;
 }
 
-main{
+.container{
      margin:auto;
      max-width: 1400px;
+     display: block;
+     border:#E0D8B0 solid 1px;
 }
 
-.container{
-    align-items: center;
-    border:#E0D8B0 solid 1px;
-    display: flex;
-    
-   }
 
  #principal{
+    display: flex;
     background-color: #E5890A;
     overflow: hidden;
     flex-direction: row;
@@ -27,11 +24,39 @@ main{
     margin:auto;
 }
 
-
-
-section{
+#principal section{
     display: inline;
 }
+
+
+#selecionado figure{
+    border:#0c0a01 solid 1px;
+    text-align: center;
+    width: 400px;
+
+}
+
+#selecionado figure img{
+    margin:auto;
+    width: 300px;
+   
+}
+
+#topFive{
+    display:block;
+    width: 50%;
+}
+
+#topFive div{
+    display:flex;
+    flex-direction: row;
+}
+
+#topFive figure{
+    
+}
+
+
 
 
 
