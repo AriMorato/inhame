@@ -15,11 +15,45 @@ body{
 }
 
 
- #principal{
-    display: flex;
+#principal{
+   /*  display: flex; */
     background-color: #E5890A;
     overflow: hidden;
-    flex-direction: row;
+    /* flex-direction: row; */
     margin:auto;
 }
 
+#selecionado{
+    display: flex;
+    flex-direction: row;
+}
+
+#selecionado img{
+    width: 300px;
+    border: #E0D8B0 5px solid;
+    border-radius:25px;
+
+}
+
+section p{
+        text-align: center;
+}
+
+#topFive{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+#topFive p{
+   
+    text-align: center;
+}
+
+#topFive img{
+    width: 150px;
+    border: #E0D8B0 5px solid;
+    border-radius:25px;
+}
