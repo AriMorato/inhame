@@ -20,69 +20,6 @@ body{
     background-color: #E5890A;
     overflow: hidden;
     flex-direction: row;
-    width: 100%;
     margin:auto;
 }
-
-#principal section{
-    display: inline;
-}
-
-
-#selecionado figure{
-    border:#0c0a01 solid 1px;
-    text-align: center;
-    width: 400px;
-
-}
-
-#selecionado figure img{
-    margin:auto;
-    width: 300px;
-   
-}
-
-#topFive{
-    display:block;
-    width: 50%;
-}
-
-#topFive div{
-    display:flex;
-    flex-direction: row;
-}
-
-#topFive figure{
-    
-}
-
-
-
-
-
-
-
-#selecionado figcaption p{
-    text-align: center;
-}
-
-
-
-#principal img{
-    width: 30%;
-}
-
-
-
-#sobremesa{
-    background-color: #82954B;
-    overflow: hidden;
-}
-
-#acompanhamento{
-    background-color: #E0D8B0;
-}
-
-
-
 
