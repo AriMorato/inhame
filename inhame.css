@@ -8,24 +8,61 @@ body{
 }
 
 .container{
-     margin:auto;
-     max-width: 1400px;
-     display: block;
-     border:#E0D8B0 solid 1px;
+    margin:auto;
+    max-width: 1400px;
+    display: block;
+    
 }
 
 
 #principal{
-   /*  display: flex; */
     background-color: #E5890A;
     overflow: hidden;
-    /* flex-direction: row; */
     margin:auto;
+    padding-top: 25px;
+    border: #E0D8B0 5px solid;
+    border-radius:25px;
+   
 }
 
 #selecionado{
     display: flex;
     flex-direction: row;
+   
+}
+
+
+
+#selecionado div p:nth-child(1){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+#selecionado figure{
+    width: 300px;
+    margin-top: 30px; 
+}
+
+#selecionado figcaption{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+}
+
+#selecionado ul li{
+    width: 350px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:12pt;
+    line-height: 2.0;
+}
+
+#selecionado ol li{
+    width: 550px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:12pt;
+    line-height: 1.3;
+    j
 }
 
 #selecionado img{
@@ -33,6 +70,15 @@ body{
     border: #E0D8B0 5px solid;
     border-radius:25px;
 
+}
+
+#selecionado ul{
+    width: 350px;
+    margin-right: 10px;
+}
+
+#selecionado ol{
+    width: 550px;
 }
 
 section p{
@@ -46,6 +92,7 @@ section p{
     align-content: center;
     justify-items: center;
     text-align: center;
+    background-color: #E0D8B0;
 }
 #topFive p{
    
@@ -56,4 +103,10 @@ section p{
     width: 150px;
     border: #E0D8B0 5px solid;
     border-radius:25px;
+}
+
+#topFive figure{
+    margin-top: 30px;
+    margin-bottom: -10px;
+  
 }
